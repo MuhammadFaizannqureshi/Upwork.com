@@ -1,0 +1,581 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+.btn1{
+    width: 70px;
+    height: 32px;
+    border: none;
+
+    background-color: transparent;
+    border-radius: 10px;
+    color: black;
+}
+.btn2{
+    width: 100px;
+    height: 32px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(20,168,0);
+    color: white;
+}
+.inp1{
+    width: 300px;
+    height: 32px;
+    border-radius: 17px;
+    margin-left: 50px;
+    padding-left: 10px;
+}
+.ul1 img{
+    padding-top: 7px;
+}
+ul.ul1{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 17px;
+    font-size: 14px;
+    font-weight: 470;
+}
+.nav1{
+    border: 1px solid black;
+    border-top: none;
+}
+
+/* nav 2 */
+.ul2{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;  
+    font-size: 14px;
+    font-weight: 470;
+    height: 12vh;
+}
+.navmain{
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+}
+.line1btn{
+    width: 250px;
+    height: 30px;
+    border-radius: 19px;
+    color: lightgray;
+}
+.line1texta{
+    font-size: 42px;
+    font-weight: 600;
+}
+.line1textb{
+    font-size: 16px;
+    font-weight: 550;
+
+}
+input.line1input{
+    width: 300px;
+    /* height: 5000px; */
+    border-radius: 19px;
+    padding-left: 20px;
+    border: 4px solid black;
+}
+div.line1a{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 10px;
+    width: 1500px;
+}
+
+h3.line1textc{
+    font-size: 20px;
+    font-weight: 600;
+}
+h3.line1textc2{
+    font-size: 19px;
+    font-weight: 600;
+}
+h4.line1textd{
+    font-size: 16px;
+    font-weight: 500;
+}
+img.paintimage{
+    border-radius: 50%;
+}
+
+div.line1main1{
+    display: flex;
+    width: 690px;
+    height: 80vh;
+    gap: 50px;
+    background-color: rgb(245, 241, 241);
+    padding-left: 30px;
+    border-radius: 10px;
+
+}
+div.line1b{
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    border: 1px solid rgb(155, 155, 155);
+    border-radius: 10px;
+    height: 450px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+div.line1{
+    display: flex;
+    gap: 50px;
+    margin-left: 30px;
+}
+/*line 2   */
+button.line2btna{
+    color: white;
+    background-color: rgb(16,138,0);
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+button.line2btnb{
+    color:rgb(16,138,0);
+    border-color: rgb(16,138,0);
+    background-color: transparent;
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+}
+div.line2div h1{
+    font-size: 48px;
+    font-weight: 550;
+
+}
+div.line2div h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+div.line2div h4{
+    font-size: 16px;
+    font-weight: 370;
+}
+div.line2div{
+    /* display: flex; */
+    /* flex-direction: column; */
+    gap: 0px;
+}
+picture.line2picture{
+    display: flex;
+    gap: 50px;
+    margin-left: 30px;
+    flex-wrap: wrap;
+}
+/* line 3 */
+h1.line3text{
+    font-size: 40px;
+    font-weight: 450;
+    margin-left: 30px;
+}
+h2.line3textb{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 30px;
+
+    color: rgb(103, 103, 103);
+}
+.link{
+    color: green;
+    font-size: 20px;
+    font-weight: 400;
+}
+div.line4 h2{
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: 550px;
+}
+div.line4 h3{
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+div.line4 img{
+    padding-bottom: 3.9px;
+}
+div.line4{
+    background-color: rgb(249,249,249);
+    height: 25vh;
+    padding-left: 20px;
+    border-radius: 10px;
+    
+}
+div.line4:hover{
+    color: black;
+    background-color: gray;
+}
+/* line 5 */
+div.line5 h2{
+    font-size: 24px;
+    font-weight :550 ;
+    color: white;
+}
+
+div.line5 h1{
+    font-size: 56px;
+    font-weight :500 ;
+    color: white;
+}
+div.line5 h4{
+    font-size: 20px;
+    font-weight :500 ;
+    color: white;
+
+}
+div.line5 h5{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+
+}
+span.l5cl{
+    color: rgb(145,230,179);
+}
+div.line5 button{
+    color: rgb(19,84,78);
+    background-color: white;
+    width: 110px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+
+}
+.line5div1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* gap: 0; */
+}
+div.line5{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(19,84,78);
+    height: 109vh;
+    width: 689px;
+    padding-top: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 20px;
+
+}
+div.line5image img{
+    border-top-right-radius :10px ;
+    border-bottom-right-radius: 10px;
+
+}
+
+/* section.line5main{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    flex-shrink: 1;
+} */
+ /* ;line6 */
+span.btn6linetxt{
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 25px;
+    
+}
+button.btn6a{
+    width: 349px;
+    height: 150px;
+    background-color: rgb(16,138,0);
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    padding-right: 109px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 27px;
+    margin-top: 20px;
+}
+button.btn6a:hover{
+    color: rgb(16,138,0);
+    background-color: white;
+    border: 1px solid rgb(16,138,0);
+}
+.btnl6{
+    padding-right:50px ;
+}
+div.line6{
+    margin-left: 50px;
+}
+
+h1.line6text{
+    font-size: 64px;
+    font-weight: 500;
+    color: white;
+}
+h2.line6textb{
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 30px;
+    color: white;
+}
+section.line6main{
+    background-image: url(./images/find-talent-2x.jpg );
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 220vh;
+    height:115vh ;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/* line 7 */
+div.line7 h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+div.line7 h2{
+    font-size: 28px;
+    font-weight: 400;
+}
+div.line7 p{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(103,103,103);
+    padding-left: 43px;
+}
+div.line7{
+    background-color: rgb(249,249,249);
+    height: 90vh;
+    width: 600px;
+    padding-top: 30px;
+    /* gap: 40px; */
+padding-left: 40px;
+border-radius: 20px;
+
+
+}
+div.line7b h2{
+    font-size: 30px;
+    font-weight: 450;
+}
+
+div.line7b h3{
+    font-size: 16px;
+    font-weight: 450;
+}
+
+div.line7b p{
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+div.line7b{
+background-color: rgb(20,168,0);
+height: 90vh;
+padding-top: 230px;
+color: white;
+width: 330px;
+padding-left: 40px;
+border-radius: 20px;
+}
+
+div.pictureadd{
+    display: flex;
+}
+
+section.line7main{
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+
+
+}
+
+/* line8 */
+ul.l8list{
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    gap: 29px;
+    list-style: none;
+}
+
+button.l8btn{
+    color: rgb(31,87,195);
+    background-color: white;
+    border: none;
+    width: 150px;
+    font-size: 15px;
+    padding-left: 5px;
+    margin-left: 37px;
+    border-radius: 5px;
+}
+.l8padding{
+    padding-left: 30px;
+}
+div.line8{
+    background-color: rgb(31,87,195);
+    height: 98vh;
+    color: white;
+    padding-top: 20px;
+    width: 590px;
+    border-top-right-radius : 10px;
+    border-bottom-right-radius : 10px;
+
+    /* padding-left: 50px; */
+}
+.l8image img{
+    border-top-left-radius : 10px;
+    border-bottom-left-radius : 10px;
+}
+section.line8main{
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/* line9 */
+div.line9 h1 {
+    font-size: 48px;
+    font-weight: 500;
+    padding-left: 40px;
+}
+/* line 10 */
+div.line10 h2{
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+div.line10 h4{
+    font-size: 16px;
+    font-weight: 370;
+}
+div.line10 h5{
+    font-size: 20px;
+    font-weight: 370;
+}
+div.line10 h6{
+    font-size: 16px;
+    font-weight: 370;
+    color: rgb(198,198,198) !important;
+    /* padding-bottom: 20px; */
+}
+div.line10{
+    color: white;
+    background-color: rgb(188,81,24);
+    border-radius: 9px;
+    height: 76vh;
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 540px;
+}
+div.image10 img{
+    border-radius: 10px;
+}
+
+div.line11 h1{
+    font-size: 28px;
+    font-weight: 500;
+}
+div.line11 h2{
+    font-size: 20px;
+    font-weight: 370;
+    color: rgb(103, 103, 103);
+}
+div.line11 button{
+    color: rgb(16,138,0);
+    background-color: white;
+    border: 1px solid rgb(16,138,0);
+    width: 97px;
+    border-radius: 10px;
+    height: 30px;
+}
+
+section.line11main{
+    background-color: rgb(249,249,249);
+    display: flex;
+    margin-top: 20px;
+    padding-left: 20px;
+    gap: 30px;
+    margin-left: 50px;
+    margin-right: 79px;
+    border-radius: 10px;
+
+}
+
+/* line 11 */
+div.list1 ul{
+    list-style: none;
+    font-size: 40px;
+    font-weight: 450;
+}
+
+div.list2 ul{
+    list-style: none;
+    font-size: 24px;
+    font-weight: 400;
+}
+div.list3 ul{
+    list-style: none;
+    font-size: 24px;
+    font-weight: 400;
+}
+section.line11{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 77px;
+    margin-top: 60px;
+}
+div.list2 ul li:hover{
+    color: lightgreen;
+}
+div.list3 ul li:hover{
+    color: lightgreen;
+}
+span.list1color{
+    color: rgb(217,217,217);
+}
+
+/* footer */
+
+div.endlist{
+    display: flex;
+    justify-content: space-around;
+    
+}
+div.flist1 ul{
+    padding-top: 30px;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+div.endend h3{
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 50px;
+    padding-right: 40px;
+}
+div.footerimage img{
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+footer.footer{
+    background-color: rgb(24,24,24);
+    color: white;
+    height: 75vh;
+    margin-top: 50px;
+    margin-left: 27px;
+    margin-right: 27px;
+}
+
